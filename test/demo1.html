@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+    </script>
+
+</head>
+<body>
+<table>
+    <script>
+        window.onload=function () {
+            var d1=document.getElementById("d1");
+            var d2=document.getElementByID("d2");
+            d1.onclick=function () {
+                alert("click d1");
+            }
+            d2.onclick=function () {
+                alert("d2");
+            }
+        }
+    </script>
+    <div id="d1">
+        d1
+        <div id="d2">
+            d2
+        </div>
+    </div>
+    <thead>
+        <th>1</th>
+        <th>2</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="#">more</a> </td>
+            <td>row one</td>
+        </tr>
+
+        <tr>
+            <td><a href="#">more</a> </td>
+            <td>row 2</td>
+        </tr>
+
+        <tr>
+            <td><a href="#">more</a> </td>
+            <td>row 3</td>
+        </tr>
+    </tbody>
+</table>
+
+
+</body>
+</html>
