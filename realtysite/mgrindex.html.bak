@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>后台管理首页</title>
+		<script type="text/javascript" src="static/js/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="static/js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="static/css/bootstrap.min.css">
+		<link rel="stylesheet" href="static/css/mgrindex.css">
+		<link rel="stylesheet" href="Awesome/css/font-awesome.min.css">
+	</head>
+
+	<body>
+		<!--header block-->
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sider-menu" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+
+				<div class="navbar-brand">
+					系统logo位置
+				</div>
+			</div>
+
+			<div>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">C罗，欢迎登陆<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">设置</a>
+							</li>
+							<li>
+								<a href="#">密码修改</a>
+							</li>
+							<li role="separator" class="divider"></li>
+							<li>
+								<a href="#">注销</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+		</nav>
+		<!--end header block-->
+
+		<div class="container-fluid">
+			<div class="row">
+				<!--左侧边菜单-->
+				<div class="col-md-2">
+					<ul class="nav nav-stacked collapse navbar-collapse" id="ul-sider-menu">
+						<li role="presentation">
+							<a href="#"><span class="glyphicon glyphicon-home"></span>管理首页</a>
+						</li>
+						<li role="presentation">
+							<a href="#">房源管理</a>
+						</li>
+						<li role="presentation">
+							<a href="#">客户管理</a>
+						</li>
+					</ul>
+				</div>
+				<!--END左侧边菜单-->
+
+				<div class="col-md-10">
+					22
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
